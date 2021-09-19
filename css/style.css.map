@@ -1,9 +1,10 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,CAAC,AAAC,CACE,UAAU,CAAE,UAAU,CACtB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACb,AAEA,AAAA,IAAI,AAAA,CACA,WAAW,CCTJ,SAAS,CAAE,UAAU,CDU/B",
+    "mappings": "AECC,AAAA,aAAa,CAAC,WAAW,CAAC,SAAS,AAAA,MAAM,AAAC,CACvC,KAAK,CDDK,OAAO,CCEpB,AFAD,AAAA,CAAC,AAAC,CACE,UAAU,CAAE,UAAU,CACtB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACb,AAEA,AAAA,IAAI,AAAA,CACA,WAAW,CCVJ,SAAS,CAAE,UAAU,CDW/B",
     "sources": [
         "../scss/style.scss",
-        "../scss/_config.scss"
+        "../scss/_config.scss",
+        "../scss/_navbar.scss"
     ],
     "names": [],
     "file": "style.css"
