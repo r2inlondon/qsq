@@ -2,6 +2,10 @@
   color: #1F5EFF;
 }
 
+.fas {
+  color: #174A73;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
