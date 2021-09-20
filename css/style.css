@@ -1,2 +1,23 @@
+<<<<<<< HEAD
 .navbar-light .navbar-nav .nav-link:hover{color:#1F5EFF}*{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}body{font-family:"Poppins",sans-serif}
+=======
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #1F5EFF;
+}
+
+.fas {
+  color: #174A73;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+>>>>>>> 8728d5adcf88cb588e72617d1d28e9ec436bbb33
 /*# sourceMappingURL=style.css.map */
