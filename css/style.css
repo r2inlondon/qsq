@@ -8,6 +8,17 @@
 
 .products {
   margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.products .card {
+  text-align: center;
+  width: 384px;
+  height: 464px;
 }
 
 * {

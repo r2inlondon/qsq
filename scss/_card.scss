@@ -1,3 +1,12 @@
 .products{
   margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+
+  .card{
+    text-align: center;
+    width: 384px;
+    height: 464px;
+  }
 }
+
