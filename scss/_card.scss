@@ -8,5 +8,14 @@
     width: 384px;
     height: 464px;
   }
+  @media screen and (max-width: 940px){
+    &{
+      display: inline;      
+    }
+    .card{
+      width: 100%;
+    }
+    
+  }
 }
 
