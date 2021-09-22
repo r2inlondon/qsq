@@ -3,10 +3,16 @@
   display: flex;
   justify-content: space-around;
 
+  .card-white{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+  }
+
   .card{
     text-align: center;
     width: 384px;
     height: 464px;
+    
     h4 {
       margin: 15px 0;
     }
