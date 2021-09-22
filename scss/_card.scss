@@ -7,13 +7,20 @@
     text-align: center;
     width: 384px;
     height: 464px;
+    h4 {
+      margin: 15px 0;
+    }
+    p {
+      margin: 0 7px 0 7px;
+    }
   }
   @media screen and (max-width: 940px){
     &{
       display: inline;      
     }
     .card{
-      width: 100%;
+      width: 100%;              
+      margin-bottom: 20px;
     }
     
   }
