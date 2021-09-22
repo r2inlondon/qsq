@@ -25,10 +25,12 @@
   text-align: center;
   width: 384px;
   height: 464px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .products .card h4 {
   margin: 15px 0;
+  font-weight: bold;
 }
 
 .products .card p {
