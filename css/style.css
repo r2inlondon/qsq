@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 .navbar-light .navbar-nav .nav-link:hover {
   color: #1F5EFF;
 }
@@ -10,6 +8,7 @@
 
 .products {
   margin-top: 100px;
+  margin-bottom: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,6 +54,34 @@
   }
 }
 
+.blue-background {
+  height: 900px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(38, 110, 166, 0.93)), to(#174a73));
+  background-image: linear-gradient(0deg, rgba(38, 110, 166, 0.93) 0%, #174a73 100%);
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+
+.vertical-top {
+  position: absolute;
+  width: 101%;
+  top: -1px;
+  z-index: 2;
+}
+
+.vertical-bottom {
+  position: absolute;
+  bottom: -1px;
+  width: 101%;
+  z-index: 2;
+}
+
+.white-space {
+  height: 100px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -65,10 +92,4 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-=======
-.navbar-light .navbar-nav .nav-link:hover{color:#1F5EFF}.fas{color:#174A73}*{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}body{font-family:"Poppins",sans-serif}
->>>>>>> aparently need to commit before changing branch
-=======
-.navbar-light .navbar-nav .nav-link:hover{color:#1F5EFF}.fas{color:#174A73}*{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}body{font-family:"Poppins",sans-serif}
->>>>>>> d24e82826d9c95c4393c8df12b55a019d7c57db7
 /*# sourceMappingURL=style.css.map */
