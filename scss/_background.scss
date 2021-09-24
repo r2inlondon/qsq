@@ -1,6 +1,14 @@
 .blue-background{
   height: 900px;
   width: 100%;
-  background-image: linear-gradient(0deg, rgba(38, 110, 166, 0.93) 0%, #174a73 100%);
+  background-image: $background-color;
   overflow: hidden;
+  z-index: 1;
+}
+
+.vertical-top{
+  position: relative;
+  width: 101%;  
+  top: -1px;
+  z-index: 2;
 }
