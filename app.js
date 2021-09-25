@@ -1,10 +1,11 @@
-const nuestros = document.querySelector('.animate__animated');
+const nuestros = document.querySelector('.nuestros-txt');
 
 // function to animate.css
 const observer = new IntersectionObserver(function(entries) {
+    console.log(entries);
 	if(entries[0].isIntersecting === true)
-        nuestros.classList.add('animate__rubberBand');
-		console.log('Element is fully visible in screen');
+        // nuestros.classList.add('animate__rubberBand');
+        entries[0].target.classList.add('animate__rubberBand');
 }, { threshold: [1] });
 
-observer.observe(document.querySelector(".animate__animated"))
+observer.observe(nuestros);
