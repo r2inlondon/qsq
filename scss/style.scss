@@ -1,15 +1,15 @@
- @import 'config';
- @import 'navbar';
- @import 'card';
- @import 'background';
+@import "config";
+@import "navbar";
+@import "card";
+@import "background";
+@import "button";
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}   
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
- body{
-     font-family: $font-main;
- }
-
+body {
+  font-family: $font-main;
+}
