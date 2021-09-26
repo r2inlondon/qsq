@@ -1,7 +1,7 @@
 .nuestros {
   margin-top: 80px;
   p {
-    font-size: 40px;
+    font-size: $font-size-title;
     font-weight: bold;
     text-align: center;
     color: #636c73;
@@ -10,7 +10,7 @@
     & {
       margin: 30px 0;
       p {
-        font-size: 30px;
+        font-size: $font-size-title-mobile;
       }
     }
   }
@@ -28,7 +28,7 @@
     border: none;
     text-align: center;
     width: 384px;
-    height: 560px;
+    height: 600px;
     color: $color-font-wcard;
 
     .card-img {
@@ -41,6 +41,7 @@
       font-weight: bold;
     }
     p {
+      font-size: $font-size-text-mobile;
       margin: 0 7px 25px 7px;
     }
   }
