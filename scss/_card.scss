@@ -19,22 +19,22 @@
 .products {
   margin: 100px 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 
-  .card-white {
+  .card {
+    margin-bottom: 40px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border: none;
-  }
-  .card-img {
-    width: 100%;
-    height: 284px;
-  }
-
-  .card {
     text-align: center;
     width: 384px;
     height: 560px;
     color: $color-font-wcard;
+
+    .card-img {
+      width: 100%;
+      height: 284px;
+    }
 
     h4 {
       margin: 15px 0;
