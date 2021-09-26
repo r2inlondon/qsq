@@ -12,6 +12,27 @@
   }
 }
 
+.card-blue {
+  background-image: $blue-card-background;
+  text-align: center;
+  width: 383px;
+  height: 382px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  color: white;
+  .fas {
+    padding: 20px 0;
+    color: white;
+    font-size: 130px;
+  }
+
+  h4 {
+    padding: 20px 0;
+    margin: 15px 0;
+    font-weight: bold;
+  }
+}
+
 @media screen and (max-width: 978px) {
   .industrias {
     margin-top: 50px;

@@ -22,14 +22,9 @@
   vertical-align: middle;
 }
 
-.button-24:hover,
-.button-24:active {
-  background-color: initial;
+.button-24:hover {
+  background-color: white;
   background-position: 0 0;
   color: $color-font-wcard;
   border: 1px solid $color-font-wcard;
-}
-
-.button-24:active {
-  opacity: 0.5;
 }
