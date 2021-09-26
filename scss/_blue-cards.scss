@@ -1,0 +1,25 @@
+.industrias {
+  margin-top: 150px;
+  color: white;
+  .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: $font-size-title;
+  }
+  .text {
+    margin-top: 40px;
+    font-size: $font-size-text;
+  }
+}
+
+@media screen and (max-width: 978px) {
+  .industrias {
+    margin-top: 50px;
+    .title {
+      font-size: $font-size-title-mobile;
+    }
+    .text {
+      font-size: $font-size-text-mobile;
+    }
+  }
+}
