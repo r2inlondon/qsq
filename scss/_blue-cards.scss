@@ -13,8 +13,9 @@
 }
 
 .industrias-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .card-blue {
