@@ -14,7 +14,7 @@ const observer = new IntersectionObserver(entries => {
     });
 
        
-}, { threshold: [1] } );
+}, { threshold: [0.8] } );
 
 observer.observe(bannerMsg);
 observer.observe(nuestrosTxt);
