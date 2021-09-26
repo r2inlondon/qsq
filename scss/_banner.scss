@@ -29,10 +29,12 @@
       padding-top: 30px;
     }
     .title {
+      margin: $margin-text-mobile;
       font-size: $font-size-title-mobile;
     }
     p {
-      margin-top: 20px;
+      margin: $margin-text-mobile;
+      text-align: justify;
       font-size: $font-size-text-mobile;
     }
   }

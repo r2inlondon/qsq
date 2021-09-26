@@ -37,12 +37,13 @@
     }
 
     h4 {
-      margin: 15px 0;
+      margin: 5px 0;
       font-weight: bold;
     }
     p {
+      text-align: justify;
       font-size: $font-size-text-mobile;
-      margin: 0 7px 25px 7px;
+      margin: $margin-text-mobile;
     }
   }
   @media screen and (max-width: 978px) {
