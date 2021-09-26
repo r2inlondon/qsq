@@ -1,5 +1,5 @@
-.blue-background{
-  height: 900px;
+.blue-background {
+  // height: 900px;
   width: 100%;
   background-image: $background-color;
   overflow: hidden;
@@ -7,20 +7,20 @@
   position: relative;
 }
 
-.vertical-top{
+.vertical-top {
   position: absolute;
-  width: 101%;  
+  width: 101%;
   top: -1px;
   z-index: 2;
 }
 
-.vertical-bottom{
+.vertical-bottom {
   position: absolute;
-  bottom: -1px;  
+  bottom: -1px;
   width: 101%;
   z-index: 2;
 }
 
-.white-space{
+.white-space {
   height: 100px;
 }
