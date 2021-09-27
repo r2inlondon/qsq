@@ -4,6 +4,14 @@
   background-size: cover;
 }
 
+.dist-auth {
+  font-size: $font-size-title;
+  color: $color-font-wcard;
+  font-weight: bold;
+  text-align: center;
+  margin: 95px;
+}
+
 .distribuidores {
   margin: 50px 0;
   display: flex;
