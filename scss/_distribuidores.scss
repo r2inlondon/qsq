@@ -6,10 +6,36 @@
 
 .distribuidores {
   margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
   .posshel {
     width: 90px;
     height: 120px;
     background-image: url(../images/brands/new-possehl.png);
+    @extend %image-shared;
+  }
+  .glassven {
+    width: 240px;
+    height: 140px;
+    background-image: url(../images/brands/glassven-logo.jpg);
+    @extend %image-shared;
+  }
+  .almatis {
+    width: 240px;
+    height: 140px;
+    background-image: url(../images/brands/alamatis.jpg);
+    @extend %image-shared;
+  }
+  .prince {
+    width: 250px;
+    height: 118px;
+    background-image: url(../images/brands/Prince_Logo.jpg);
+    @extend %image-shared;
+  }
+  .rzbc {
+    width: 217px;
+    height: 116px;
+    background-image: url(../images/brands/rzbc-logo.jpg);
     @extend %image-shared;
   }
 }
