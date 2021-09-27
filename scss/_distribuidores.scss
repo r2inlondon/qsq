@@ -2,6 +2,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-bottom: 40px;
 }
 
 .dist-auth {
@@ -9,12 +10,13 @@
   color: $color-font-wcard;
   font-weight: bold;
   text-align: center;
-  margin: 95px;
+  margin: 95px 0;
 }
 
 .distribuidores {
   margin: 50px 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   .posshel {
     width: 90px;
