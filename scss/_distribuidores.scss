@@ -1,0 +1,15 @@
+%image-shared {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.distribuidores {
+  margin: 50px 0;
+  .posshel {
+    width: 90px;
+    height: 120px;
+    background-image: url(../images/brands/new-possehl.png);
+    @extend %image-shared;
+  }
+}
