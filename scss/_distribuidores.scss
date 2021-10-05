@@ -1,0 +1,80 @@
+%image-shared {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  // margin-bottom: 40px;
+}
+
+%companies-shared{
+  // width: 240px;
+  // height: 120px;
+  flex: 1 1 300px;
+  margin-bottom: 30px;
+}
+
+.dist-auth {
+  font-size: $font-size-title;
+  color: $color-font-wcard;
+  font-weight: bold;
+  text-align: center;
+  margin: 95px 0;
+}
+
+.distribuidores {  
+  gap: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .distribuidor-1{
+    @extend %companies-shared;
+    .posshel {
+      margin: auto;
+      width: 90px;
+      height: 120px;
+      background-image: url(../images/brands/new-possehl.png);
+      @extend %image-shared;
+    }    
+  }
+  .distribuidor-2{
+    @extend %companies-shared;
+    .rzbc {
+      
+      width: 217px;
+      height: 116px;
+      background-image: url(../images/brands/rzbc-logo.jpg);
+      @extend %image-shared;
+    }
+  }
+  .distribuidor-3{
+    @extend %companies-shared;
+    .almatis {
+      
+      width: 240px;
+      height: 140px;
+      background-image: url(../images/brands/alamatis.jpg);
+      @extend %image-shared;
+    }
+  }
+  .distribuidor-4{
+    @extend %companies-shared;
+    .prince {
+      width: 250px;
+      height: 118px;
+      background-image: url(../images/brands/Prince_Logo.jpg);
+      @extend %image-shared;
+    }
+  }
+  .distribuidor-5{
+    @extend %companies-shared;   
+    .glassven {
+      width: 240px;
+      height: 140px;
+      background-image: url(../images/brands/glassven-logo.jpg);
+      @extend %image-shared;
+    }
+  }
+ 
+  
+ 
+}
