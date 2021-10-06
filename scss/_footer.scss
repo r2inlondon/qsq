@@ -1,9 +1,19 @@
 .outter-foot {
-  margin-top: 150px;
+  margin-top: 140px;
+  margin-bottom: 20px;
   .inner-foot {
     margin: auto;
     width: 870px;
     height: 130;
     display: flex;
+    align-items: flex-end;
+    .address {
+      width: 630px;
+      font-size: 18px;
+      color: white;
+      > * {
+        margin-bottom: 0;
+      }
+    }
   }
 }

@@ -337,7 +337,8 @@
 }
 
 .outter-foot {
-  margin-top: 150px;
+  margin-top: 140px;
+  margin-bottom: 20px;
 }
 
 .outter-foot .inner-foot {
@@ -347,6 +348,19 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.outter-foot .inner-foot .address {
+  width: 630px;
+  font-size: 18px;
+  color: white;
+}
+
+.outter-foot .inner-foot .address > * {
+  margin-bottom: 0;
 }
 
 * {
