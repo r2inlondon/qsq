@@ -346,28 +346,35 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 .outter-foot .inner-foot .logo-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 20%;
-          flex: 1 1 20%;
+      -ms-flex: 1 1 40%;
+          flex: 1 1 40%;
 }
 
 .outter-foot .inner-foot .logo-box .logo-light {
+  margin-left: auto;
   width: 225px;
   height: 88px;
 }
 
+@media screen and (max-width: 750px) {
+  .outter-foot .inner-foot .logo-box .logo-light {
+    margin-left: 0;
+  }
+}
+
 .outter-foot .inner-foot .address {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 80%;
-          flex: 1 1 80%;
+      -ms-flex: 1 1 60%;
+          flex: 1 1 60%;
   font-size: 18px;
   color: white;
 }
