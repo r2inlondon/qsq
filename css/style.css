@@ -154,7 +154,7 @@
 .banner {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/753331.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/753331.jpg");
-  height: 90vh;
+  height: 85vh;
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -166,6 +166,7 @@
   padding: 150px 0;
   overflow: hidden;
   position: relative;
+  margin-bottom: 25px;
 }
 
 .banner .title {
@@ -472,6 +473,13 @@
     opacity: 0;
     -webkit-transform: rotate(45deg) translate(20px, 20px);
             transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+@media screen and (max-width: 429px) {
+  .arrow span {
+    width: 20px;
+    height: 20px;
   }
 }
 

@@ -1,7 +1,7 @@
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/753331.jpg");
-  height: 90vh;
+  height: 85vh;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -9,6 +9,7 @@
   padding: 150px 0;
   overflow: hidden;
   position: relative;
+  margin-bottom: 25px;
   .title {
     margin: 0;
     font-size: $font-size-title;
