@@ -342,7 +342,8 @@
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/753331-2.jpg");
   height: 85vh;
-  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center;
   display: flex;
   align-items: center;
@@ -399,6 +400,10 @@
   opacity: 0;
 }
 
+.wrapper {
+  display: none;
+}
+
 .loader-page {
   background-color: #49525c;
   height: 100vh;
@@ -408,6 +413,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: 1s;
 }
 
 .loader-txt {
@@ -417,6 +423,19 @@
   z-index: 10;
   top: 55%;
   left: 45%;
+  animation: 1s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fadeOut {
+  animation-name: fadeOut;
 }
 
 .loader {

@@ -1,3 +1,7 @@
+.wrapper {
+  display: none;
+}
+
 .loader-page {
   background-color: #49525c;
   height: 100vh;
@@ -7,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  //   opacity: 0.8;
+  animation: 1s;
 }
 
 .loader-txt {
@@ -17,6 +21,20 @@
   z-index: 10;
   top: 55%;
   left: 45%;
+  animation: 1s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  animation-name: fadeOut;
 }
 
 .loader {
