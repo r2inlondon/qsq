@@ -1,6 +1,6 @@
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/753331.jpg");
+    url("../images/753331-2.jpg");
   height: 85vh;
   background-size: cover;
   background-position: center;
@@ -38,6 +38,14 @@
       text-align: justify;
       font-size: $font-size-text-mobile;
     }
+  }
+}
+
+.splide__slide {
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
   }
 }
 
