@@ -341,7 +341,7 @@
 }
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/753331-2.jpg");
-  height: 85vh;
+  height: 95vh;
   -o-object-fit: cover;
      object-fit: cover;
   background-position: center;

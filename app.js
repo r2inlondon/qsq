@@ -38,10 +38,3 @@ const observer = new IntersectionObserver(
 observer.observe(bannerMsg);
 observer.observe(nuestrosTxt);
 observer.observe(industrias);
-
-window.addEventListener("scroll", () => {
-  const y = window.scrollY;
-  if (y > 50) {
-    arrows.style.display = "none";
-  }
-});
